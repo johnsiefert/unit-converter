@@ -1,6 +1,57 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+#convert-section {
+  background: #6943ff;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.convert-box {
+  border: 1px solid #ffffff;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  margin: 20px 20px;
+}
+
+.convert-btn {
+  font-family: 'Poppins', sans-serif;
+  color: #3d3d3d;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5%;
+  padding: 8px 25px;
+  margin-bottom: 30px;
+}
+
+.unit-container {
+    margin-top: 100px;
+  width: auto;
+  text-align: center;
+}
+
+.length,
+.mass,
+.volume {
+  height: 200px;
+  color: #5a537b;
+}
