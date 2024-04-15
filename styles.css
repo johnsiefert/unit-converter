@@ -23,11 +23,12 @@ body {
 }
 
 .convert-box {
+  background-color: #6943ff;
+  color: #ffffff;
+  text-align: center;
   border: 1px solid #ffffff;
   height: 100px;
   width: 100px;
-  display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 4em;
   margin: 20px 20px;
